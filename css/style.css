@@ -61,6 +61,7 @@ nav img {
   max-width: 14ch;
   text-align: center;
   display: inline-block;
+  font-size: calc(1.3rem + 1vw);
 }
 #home-container h2 {
   /* width: 70%; */
@@ -68,6 +69,7 @@ nav img {
   display: inline;
   border-bottom: 1px rgb(252, 251, 251) solid;
   max-width: 14ch;
+  font-size: calc(1rem + 1vw);
 }
 #home-container {
   position: relative;
@@ -217,6 +219,14 @@ h5 {
 #karriere {
   clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
   background-color: hsl(0, 1%, 90%);
+}
+#karriere .primary-button {
+  background-color: hsl(0, 1%, 90%);
+}
+#karriere .primary-button:hover {
+  background-color: hsl(0, 0%, 68%);
+  color: white;
+  border: 1px hsl(0, 0%, 68%) solid;
 }
 .border-bottom-karriere {
   border-bottom: 1px rgb(211, 211, 211) solid;
