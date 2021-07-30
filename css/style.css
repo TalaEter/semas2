@@ -142,6 +142,13 @@ nav img {
 #references-container h1 {
   font-size: calc(2.5rem + 1vw);
 }
+.reference-card {
+  height: 50vh !important;
+}
+.reference-card img {
+  height: 50vh !important;
+  object-fit: cover !important;
+}
 .slider-bg {
   max-height: 140vh;
   padding-top: 7%;
@@ -375,4 +382,7 @@ iframe {
 }
 a#logo {
   align-items: baseline;
+}
+.padding-projekt {
+  padding-bottom: 40px !important;
 }
