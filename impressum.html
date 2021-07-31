@@ -32,22 +32,36 @@
         </button>
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
-            <!-- <li class="uk-active"><a href="#"><img src="./images/af-logo.png" class="logo" alt="">SEMAS</a></li> -->
-            <li class="uk-active"><a href="#"><h3 class=" uk-text-bold uk-display-inline uk-margin-remove-bottom">SEMAS</h3></a></li>
+            <li class="uk-active logo-semas"><a href="index.html"><h3 class=" uk-text-bold uk-display-inline uk-margin-remove-bottom">SEMAS</h3></a></li>
         </ul>
     </div>
-    <!-- <button class="uk-button uk-button-default uk-navbar-toggle" type="button" uk-toggle="target: #toggle-usage"><span uk-icon="heart"></span></button> -->
-    <!-- <button href="#toggle-animation" class="uk-button uk-button-default" type="button" uk-toggle="target: #toggle-animation; animation: uk-animation-fade">Toggle</button> -->
-    <!-- <div id="toggle-animation" class="uk-card uk-card-default uk-card-body uk-margin-small"> -->
     <div class="uk-navbar-right toggle-target collapsed" id="toggle-usage">
         <ul class="uk-navbar-nav">
             <li class="uk-active"><a href="index.html">Home</a></li>
             <li class="uk-parent"><a href="index.html#welcome-container">Über uns /</a></li>
-            <li class="uk-parent"><a href="index.html#services-container">Dienstleistungen /</a></li>
-            <li class="uk-parent"><a href="./index.html#references-container">Aktuelle Projekten /</a></li>
-            <li class="uk-parent"><a href="./index.html#history-container">Historie /</a></li>
-            <li class="uk-parent"><a href="index.html#contact-container">Kontakt /</a></li>
-            <li class="uk-parent"><a href="#">Impressum</a></li>
+            <!-- <li class="uk-parent"><a href="index.html#services-container">Dienstleistungen /</a></li> -->
+            <!-- <li class="uk-parent"><a href="./index.html#references-container">Aktuelle Projekten /</a></li> -->
+            <!-- <li class="uk-parent"><a href="./index.html#history-container">Historie /</a></li> -->
+            <li>
+                <a href="index.html#services-container">Dienstleistungen /</a>
+                <div class="uk-navbar-dropdown uk-padding-remove">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="./index.html#references-container">Aktuelle Projekten /</a></li>
+                        <li><a href="./index.html#history-container">Historie /</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="index.html#contact-container">Kontakt /</a>
+                <div class="uk-navbar-dropdown uk-padding-remove">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="#" uk-scroll>Impressum /</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <!-- <li class="uk-parent"><a href="index.html#contact-container">Kontakt /</a></li> -->
+            <!-- <li class="uk-parent"><a href="#">Impressum</a></li> -->
         </ul>
     <!-- </div> -->
 </div>
@@ -59,21 +73,21 @@
     <!-- <br><br><br> -->
     <h1 class="uk-text-center impressum-title uk-light uk-background-secondary">Impressum</h1>
     <div class="uk-container uk-padding">
-        <h3 class="uk-text-left">Bauunternehmung Semas GmbH</h3>
-        <h5 class="uk-text-left">Freiherr-vom-Stein-Strasse 12</h5>
-        <h5 class="uk-text-left">56337 Kadenbach</h5>
-        <h3 class="uk-text-left">Geschäftsführer:</h3>
-        <h5 class="uk-text-left">Adham Tlasfarzat</h5>
-        <h3 class="uk-text-left">Umsatzsteueridentifikationsnummer ( § 27a UStG)</h3>
-        <h5 class="uk-text-left">USt-Ident.-Nr. DE341690251</h5>
-        <h3 class="uk-text-left">Haftung für Inhalte:</h3>
-        <h5 class="uk-text-left">Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.  Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</h5>
-        <h3 class="uk-text-left">Haftung für Links:</h3>
-        <h5 class="uk-text-left">Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. 
+        <h3 class="uk-text-left uk-text-bold">Bauunternehmung Semas GmbH</h3>
+        <h5 class="uk-text-left uk-margin-small-top uk-margin-remove-bottom">Freiherr-vom-Stein-Strasse 12</h5>
+        <h5 class="uk-text-left uk-margin-small-top uk-margin-remove-bottom">56337 Kadenbach</h5>
+        <h3 class="uk-text-left uk-text-bold">Geschäftsführer:</h3>
+        <h5 class="uk-text-left uk-margin-small-top uk-margin-remove-bottom">Adham Tlasfarzat</h5>
+        <h3 class="uk-text-left uk-text-bold">Umsatzsteueridentifikationsnummer ( § 27a UStG)</h3>
+        <h5 class="uk-text-left uk-margin-small-top uk-margin-remove-bottom">USt-Ident.-Nr. DE341690251</h5>
+        <h3 class="uk-text-left uk-text-bold">Haftung für Inhalte:</h3>
+        <h5 class="uk-text-left uk-margin-small-top uk-margin-remove-bottom">Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.  Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</h5>
+        <h3 class="uk-text-left uk-text-bold">Haftung für Links:</h3>
+        <h5 class="uk-text-left uk-margin-small-top uk-margin-remove-bottom">Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. 
             Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
             </h5>
-        <h3 class="uk-text-left">Urheberrecht:</h3>
-        <h5 class="uk-text-left">Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. 
+        <h3 class="uk-text-left uk-text-bold">Urheberrecht:</h3>
+        <h5 class="uk-text-left uk-margin-small-top uk-margin-remove-bottom">Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. 
             Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen. 
             </h5>
     </div>

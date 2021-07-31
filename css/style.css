@@ -168,10 +168,35 @@ nav img {
 }
 .reference-card {
   height: 50vh !important;
+  width: 50vw !important;
 }
 .reference-card img {
   height: 50vh !important;
   object-fit: cover !important;
+}
+@media screen and (max-width: 1170px) {
+  .reference-card {
+    /* height: 50vh !important; */
+    width: 60vw !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .reference-card {
+    /* height: 50vh !important; */
+    width: 70vw !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .reference-card {
+    /* height: 50vh !important; */
+    width: 80vw !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  .reference-card {
+    /* height: 50vh !important; */
+    width: 100vw !important;
+  }
 }
 .slider-bg {
   max-height: 140vh;
@@ -374,6 +399,15 @@ iframe {
     width: 100%;
     background-color: hsl(0, 0%, 68%);
   }
+  .uk-navbar li {
+    background-color: hsl(0, 0%, 68%);
+  }
+  .logo-semas {
+    background-color: #f8f8f8 !important    ;
+  }
+  /* .uk-navbar ul {
+    background-color: hsl(0, 0%, 68%);
+  } */
   .uk-navbar .toggle-target .uk-navbar-nav li a {
     display: block;
     min-height: 0;
@@ -407,11 +441,22 @@ iframe {
 a#logo {
   align-items: baseline;
 }
+
 .padding-projekt {
   padding-bottom: 40px !important;
 }
 @media screen and (max-width: 440px) {
   #history-container > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .history-img {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  #references-container > div {
     padding-left: 0;
     padding-right: 0;
   }
